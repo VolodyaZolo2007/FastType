@@ -21,10 +21,16 @@
             </Grid.RowDefinitions>
             <TextBlock x:Name="TypingTutorTbl" FontSize="35" Foreground="#0a335c" FontWeight="SemiBold" VerticalAlignment="Center" HorizontalAlignment="Center" Text="Текстовый текст который очень сложно печатать"/>
             <TextBox x:Name="TypingTutorTb" Grid.Row="2" Style="{StaticResource TypingTutorTextBox}"/>
-            <!-- #regioon Статистика-->
+            
+            
+            <!-- #region Статистика-->
             
             <!-- #endregion-->
-            <!-- #regioon Клавиатура-->
+            
+            
+            
+            <!-- #region Клавиатура-->
+            
             <Viewbox Grid.Row="6" HorizontalAlignment="Center">
                 <Grid x:Name="KeyboardGrid" Grid.Row="6">
                     <Grid.RowDefinitions>
@@ -104,6 +110,7 @@
                     </StackPanel>
                 </Grid>
                 </Viewbox>
+            
             <!-- #endregion-->
             
         </Grid>
