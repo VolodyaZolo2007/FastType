@@ -24,6 +24,7 @@
             
             
             <!-- #region Статистика-->
+            
             <Grid Grid.Row="4" HorizontalAlignment="Center">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="50" />
